@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+
+.section2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 650px;
+    align-items: center;
+    font-family: "Archivo Narrow", sans-serif;
+    color: rgba(244, 244, 244, 1);
+    background-color: rgba(155, 166, 87, 1);
+    .text {
+        width: 50%;
+        h2 {
+            font-style: normal;
+            font-size: 15pt;
+        }
+        p {
+            font-style: italic;
+            font-size: 11pt;
+        }
+    }
+        .imgContent {
+            width: 380px;
+        }
+}
