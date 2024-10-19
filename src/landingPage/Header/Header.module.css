@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+.header {
+  font-style: "Julius Sans One", sans-serif;
+  font-size: 13pt;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 3;
+  background-color: rgb(244, 244, 244);
+}
+.header .headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+  letter-spacing: 8%;
+  height: 100%;
+}
+.header .headerLeft:hover {
+  cursor: pointer;
+}
+.header .headerLeft img {
+  width: 50px;
+}
+.header .headerLeft h1 {
+  font-weight: 400;
+  color: rgb(89, 68, 51);
+}
+.header .headerRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.header .headerRight ul {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+}
+.header .headerRight ul li {
+  color: black;
+  letter-spacing: 2pt;
+  font-weight: 25pt;
+}
+.header .headerRight ul li:hover {
+  cursor: pointer;
+  color: rgb(89, 68, 51);
+}/*# sourceMappingURL=Header.module.css.map */
