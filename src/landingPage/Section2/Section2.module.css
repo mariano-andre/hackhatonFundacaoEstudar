@@ -23,3 +23,21 @@
 .section2 .imgContent {
   width: 380px;
 }/*# sourceMappingURL=Section2.module.css.map */
+
+@media (max-width: 768px) {
+  .section2 img{
+    display: none;
+  }
+
+  .section2 .text{
+    width: 85%;
+  }
+  
+  .section2 .text h2{
+    font-size: 22pt;
+  }
+
+  .section2 .text p{
+    font-size: 14pt;
+  }
+}
