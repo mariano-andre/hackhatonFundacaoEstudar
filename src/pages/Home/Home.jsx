@@ -22,7 +22,7 @@ function Home() {
           title="SITUAÇÃO ALIMENTÍCIA NO BRASIL"
           textContent="Apesar do Brasil estar fora do mapar da fome, conforme o Relatório das Nações Unidas (ONU), ainda há 2,5 milhões de pessoas que se enquadram no quadro de  insegurança alimentar severa. A nível de comparação, é o equivalente a população da capital baiana, Salvador. 
 
-Enquanto dados obtidos através do Instituto Brasileiro de Geografia e Estatística (IBGE), no ano de 2023 indivíduos com insegurança alimentar equvalem a 4,3% da população brasielra, em números absolutos, 8,7 milhões de pessoas."
+Dados obtidos através do Instituto Brasileiro de Geografia e Estatística (IBGE), no ano de 2023 indivíduos com insegurança alimentar equvalem a 4,3% da população brasielra, em números absolutos, 8,7 milhões de pessoas."
           image={imgSection1}
         />
         <Section2
