@@ -7,10 +7,13 @@ export const Header = () => {
         <header className={styles.header}>
             <div className={styles.headerLeft}>
                 <img src={logoHeader} alt="Logo Fome Zero"/>
-                <Link to="/"><h1>Zero Fome</h1></Link>
+                <Link to="/"><h1>Crawley Connect</h1></Link>
             </div>
             <div className={styles.headerRight}>
                 <ul>
+                    <li>
+                        <a href="/#insetosNoMeio">O que é entomofagia?</a>
+                    </li>
                     <li>
                         <Link to="/Tabelas">Tabelas</Link>
                     </li>
@@ -19,9 +22,6 @@ export const Header = () => {
                     </li>
                     <li>
                         <Link>Receitas</Link>
-                    </li>
-                    <li>
-                        <Link>Utilidades</Link>
                     </li>
                 </ul>
             </div>

@@ -4,7 +4,7 @@ import Banner from '../../landingPage/Banner/Banner';
 import Container from '../../landingPage/Container/Container';
 import '../../App.css';
 import { primaryBanner, secondaryBanner } from '../../landingPage/Banner/Banner';
-import Section1, { imgSection1, img2Section1 } from '../../landingPage/Section1/Section1';
+import Section1, { imgSection1, img2Section1, img3Section1 } from '../../landingPage/Section1/Section1';
 import Section2, { imgSection2, img2Section2 } from '../../landingPage/Section2/Section2';
 import { Footer } from '../../landingPage/Footer/Footer';
 
@@ -36,23 +36,27 @@ Enquanto dados obtidos através do Instituto Brasileiro de Geografia e Estatíst
         <Banner
           title="INSETOS NO MEIO ALIMENTÍCIO"
           img={secondaryBanner}
+          id="insetosNoMeio"
         />
         <Section1
-          title="PRECONCEITOS/BENEFICIOS"
-          textContent="Em 2020, a Organização das Nações Unidas para Alimentação e Agricultura (FAO) apresentou fontes alternativas de alimentos, como o caso de insetos, devido ao seu alto valor nutricional, sendo ricos em proteinas e pelo fato de serem favcilmente produzidos com pouco espaço e recursos.
-
-No Brasil, apesar de em algumas regiões ,como no Nordeste, essa prática já ser realizada, ainda há preconceitos em relação há essa forma de alimento. "
+          title="O QUE É A ENTOMOFAGIA?"
+          textContent="A entomofagia humana, ou antropoentomofagia, é o consumo de insetos por humanos, prática muito comum em diversas culturas. Nos últimos anos, diversas pesquisas na área têm destacado cada vez mais seu potencial de produção de alimentos saudáveis ricos em nutrientes de forma sustentável."
           image={img2Section1}
         />
         <Section2
-          title="CUSTO-BENEFÍCIO E RIQUEZA 
-NUTRICIONAL"
-          textContent="  Por não ser algo de grande valor aquisitivo no mercado, os insetos quando disponíveis para a compra tendem a ter um preço de custo muito baixo. além de serem de fácil criação, possibilitando que a necessidade de compra até deixe de existir.
+          title="PRECONCEITOS"
+          textContent=" Em 2020, a Organização das Nações Unidas para Alimentação e Agricultura (FAO) apresentou insetos como fontes alternativas de alimentos devido ao seu alto valor nutricional, sendo ricos em proteínas e pelo fato de serem favcilmente produzidos com pouco espaço e recursos.
 
- Apesar da negligência feita pela sociedade acerca dos insetos na indústria alimentícia, os insetos no geral apresentam uma tabela nutricional rica em proteínas, que por consequência contribui para a redução da fome e a prolongação da sensação de saciedade. 
-
- Um exemplo válido a ser citado de uso de inseto para fins alimentícios é a clássica farofa de tanajura, que é populormente conhecida no território brasileiro."
+No Brasil, apesar de em algumas regiões ,como no Nordeste, essa prática já ser realizada, ainda há preconceitos em relação há essa forma de alimento. A falta de divulgação dessa questão e, portanto, a falta de familiaridade geral levam a crenças sociais que impõem desafios na propagação da ideia."
           image={img2Section2}
+        />
+        <Section1
+          title="BENEFÍCIOS E RIQUEZA 
+NUTRICIONAL"
+          textContent="Apesar dos preconceitos, principalmente ocidentais, com relação a antropoentomofagia, sua importância é inegável. Por não ser algo de grande valor aquisitivo no mercado, os insetos quando disponíveis para a compra tendem a ter um preço de custo muito baixo. Além de serem de fácil criação, possibilitando que a necessidade de compra até deixe de existir.
+
+ Apesar da negligência feita pela sociedade acerca dos insetos na indústria alimentícia, os insetos no geral apresentam uma tabela nutricional rica em proteínas, que por consequência contribui para a redução da fome e a prolongação da sensação de saciedade."
+          image={img3Section1}
         />
       </Container>
       <Footer/>
