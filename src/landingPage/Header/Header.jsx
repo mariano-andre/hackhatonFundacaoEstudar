@@ -15,7 +15,7 @@ export const Header = () => {
                         <a href="/#insetosNoMeio">O que é entomofagia?</a>
                     </li>
                     <li>
-                        <Link to="/Tabelas">Tabelas</Link>
+                        <Link to="/Tabelas">Valores nutricionais</Link>
                     </li>
                     <li>
                         <Link>Sustentabilidade</Link>
