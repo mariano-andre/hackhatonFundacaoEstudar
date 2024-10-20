@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "nome_popular": "Formiga de corte",
+        "nome_cientifico": "Carebara vidua",
+        "informacao_nutricional": {
+            "proteínas": 48.8,
+            "lipídios": 47.5,
+            "carboidratos": null,
+            "cinzas": 1.6,
+            "fibras": null
+        }
+    },
+    {
+        "id": 2,
+        "nome_popular": "Gafanhoto-nsenene",
+        "nome_cientifico": "Ruspolia differens",
+        "informacao_nutricional": {
+            "proteínas": 43.1,
+            "lipídios": 48.2,
+            "carboidratos": 2,
+            "cinzas": 2.8,
+            "fibras": 4
+        }
+    },
+    {
+        "id": 3,
+        "nome_popular": "Larva de bicho-da-farinha",
+        "nome_cientifico": "Tenebrio molitor",
+        "informacao_nutricional": {
+            "proteínas": 50.28,
+            "lipídios": 27.42,
+            "carboidratos": 15,
+            "cinzas": 3.45,
+            "fibras": null
+        }
+    },
+    {
+        "id": 4,
+        "nome_popular": "Bicho-do-coco",
+        "nome_cientifico": "Pachymerus nucleorum",
+        "informacao_nutricional": {
+            "proteínas": 33.05,
+            "lipídios": 49.32,
+            "carboidratos": 11.5,
+            "cinzas": 11.5,
+            "fibras": 2.91
+        }
+    },
+    {
+        "id": 5,
+        "nome_popular": "Besouro passalidae",
+        "nome_cientifico": "Homolepta passalidae",
+        "informacao_nutricional": {
+            "proteínas": 53.7,
+            "lipídios": 18.42,
+            "carboidratos": 9.64,
+            "cinzas": 1.72,
+            "fibras": 11.51
+        }
+    },    
+    {
+        "id": 6,
+        "nome_popular": "Barata lagosta",
+        "nome_cientifico": "Nauphoeta cinerea",
+        "informacao_nutricional": {
+            "proteínas": 68.5,
+            "lipídios": 22.5,
+            "carboidratos": 5.1,
+            "cinzas": 3.9,
+            "fibras": null
+        }
+    },
+    {
+        "id": 7,
+        "nome_popular": "Esperança",
+        "nome_cientifico": "Orthoptera",
+        "informacao_nutricional": {
+            "proteínas": 61.32,
+            "lipídios": 12.41,
+            "carboidratos": 12.98,
+            "cinzas": 3.85,
+            "fibras": 9.55
+        }
+    },
+    {
+        "id": 8,
+        "nome_popular": "Grilo doméstico",
+        "nome_cientifico": "Acheta domestiscus",
+        "informacao_nutricional": {
+            "proteínas": 55.4,
+            "lipídios": 19.8,
+            "carboidratos": null,
+            "cinzas": 8.5,
+            "fibras": null
+        }
+    },
+    {
+        "id": 9,
+        "nome_popular": "Formiga aveludada",
+        "nome_cientifico": "Liometopum apiculatum",
+        "informacao_nutricional": {
+            "proteínas": 42.7,
+            "lipídios": 37.2,
+            "carboidratos": null,
+            "cinzas": 4,
+            "fibras": 1.4
+        }
+    }
+]
+  
