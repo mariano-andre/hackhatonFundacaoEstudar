@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Header } from '../../landingPage/Header/Header';
 import Container from '../../landingPage/Container/Container';
-import Section1 from '../../landingPage/Section1/Section1'
 import '../Tabelas/tabelas.css'
 import { Footer } from '../../landingPage/Footer/Footer';
 
@@ -107,7 +106,7 @@ const Tabelas = () => {
         <div>
             <Header/>
             <Container>
-                <p>Pensando na ideia de propagação da antropoentomofagia, aqui está uma comparação entre informações nutricionais de alguns insetos com relação a outras fontes de proteínas mais comuns no cotidiano brasileiro.</p>
+                <p class="infos">Pensando na ideia de propagação da antropoentomofagia, aqui está uma comparação entre informações nutricionais de alguns insetos com relação a outras fontes de proteínas mais comuns no cotidiano brasileiro.</p>
                 <table>
                     <thead>
                         <th>Nome popular</th>
@@ -130,7 +129,22 @@ const Tabelas = () => {
                     </thead>
                     <tbody id='tbConvencionais'></tbody>
                 </table>
-
+                <div class="infos">
+                    <p>Além da enorme riqueza em proteínas de alta qualidade, os insetos também são fontes de:</p>
+                    <ul>
+                        <li>Gorduras saudáveis</li>
+                        <li>Vitaminas e minerais essenciais:
+                            <ul>
+                                <li>Ferro</li>
+                                <li>Zinco</li>
+                                <li>Magnésio</li>
+                                <li>Vitaminas do complexo B</li>
+                            </ul>
+                        </li>
+                        <li>Quitina (fibra dietética)</li>
+                    </ul>
+                    <p>Vale ressaltar que além das já citadas, variedades diferentes de insetos podem oferecer perfis nutricionais ainda mais variados.</p>
+                </div>
                 <Footer/>
             </Container>
         </div>
