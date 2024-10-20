@@ -7,21 +7,21 @@ export const Header = () => {
         <header className={styles.header}>
             <div className={styles.headerLeft}>
                 <img src={logoHeader} alt="Logo Fome Zero"/>
-                <Link to="/"><h1>Zero Fome</h1></Link>
+                <Link to="/"><h1>Crawley Connect</h1></Link>
             </div>
             <div className={styles.headerRight}>
                 <ul>
                     <li>
-                        <Link to="/tabelas">Tabelas</Link>
+                        <a href="/#insetosNoMeio">O que é entomofagia?</a>
                     </li>
                     <li>
-                        <Link to="/sustentabilidade">Sustentabilidade</Link>
+                        <Link to="/Tabelas">Tabelas</Link>
                     </li>
                     <li>
-                        <Link to="/receitas">Receitas</Link>
+                        <Link>Sustentabilidade</Link>
                     </li>
                     <li>
-                        <Link to="/utilidades">Utilidades</Link>
+                        <Link>Receitas</Link>
                     </li>
                 </ul>
             </div>
