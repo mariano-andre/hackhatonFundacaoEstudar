@@ -12,16 +12,16 @@ export const Header = () => {
             <div className={styles.headerRight}>
                 <ul>
                     <li>
-                        <Link to="/Tabelas">Tabelas</Link>
+                        <Link to="/tabelas">Tabelas</Link>
                     </li>
                     <li>
-                        <Link>Sustentabilidade</Link>
+                        <Link to="/sustentabilidade">Sustentabilidade</Link>
                     </li>
                     <li>
-                        <Link>Receitas</Link>
+                        <Link to="/receitas">Receitas</Link>
                     </li>
                     <li>
-                        <Link>Utilidades</Link>
+                        <Link to="/utilidades">Utilidades</Link>
                     </li>
                 </ul>
             </div>
