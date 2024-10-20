@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Rota para obter dados do JSON
-app.get('/api/itens', (req, res) => {
+app.get('/cconnect/insetos', (req, res) => {
   fs.readFile(path.join(__dirname, 'data.json'), 'utf8', (err, data) => {
     if (err) {
       return res.status(500).json({ error: 'Erro ao ler o arquivo.' });
@@ -22,15 +22,13 @@ app.get('/api/itens', (req, res) => {
 
 
 // Rota para buscar elementos específicos
-app.get('/api/buscar', (req, res)  => {
+app.get('/cconnect/buscar', (req, res)  => {
     const  {nome} = req.query;
     
     fs.readFile(path.join(__dirname, 'data.json'), 'utf8', (err, data) => {
         if (err) {
           return res.status(500).json({ erro: 'Erro ao ler o arquivo.' });
         }
-      
-        console.log("Conteúdo lido do JSON:", data);
       
         let itens;
         try {
@@ -40,6 +38,10 @@ app.get('/api/buscar', (req, res)  => {
         }
         
         // Filtra os itens pelo nome
+        if(nome === undefined){
+            return res.status(400).json({erro: 'Digite um nome para buscar'});
+        }
+        
         const itensFiltrados = itens.filter(item => {
             return item.nome_popular.toLowerCase().includes(nome.toLowerCase()) || item.nome_cientifico.toLowerCase().includes(nome.toLowerCase());
         });
