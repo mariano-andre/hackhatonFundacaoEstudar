@@ -1,5 +1,6 @@
 import styles from "./Section2.module.css";
-import imgSection2 from "../../img/img-sec2.png"
+import imgSection2 from "../../img/img-sec2.png";
+import img2Section2 from "../../img/img2-sec2.png";
 
 function Section2 ({title, textContent, image}) {
     return (
@@ -16,4 +17,4 @@ function Section2 ({title, textContent, image}) {
 }  
 
 export default Section2;
-export {imgSection2};
+export {imgSection2, img2Section2};

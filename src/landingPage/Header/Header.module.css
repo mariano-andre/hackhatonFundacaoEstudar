@@ -6,7 +6,6 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  position: fixed;
   z-index: 3;
   background-color: rgb(244, 244, 244);
 }
