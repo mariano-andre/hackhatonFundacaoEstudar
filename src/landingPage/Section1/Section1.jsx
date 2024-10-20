@@ -10,9 +10,11 @@ function Section1 ({title, textContent, image}) {
                 <h2>{title}</h2>
                 <p>{textContent}</p>
             </div>
-            <div className={styles.img}>
-                <img className={styles.imgContent} src={image} alt="Imagem da Sessão" />
-            </div>
+            {image && (
+                <div className={styles.img}>
+                    <img className={styles.imgContent} src={image} alt="Imagem da Sessão" />
+                </div>
+            )}
         </section>
     )
 }  

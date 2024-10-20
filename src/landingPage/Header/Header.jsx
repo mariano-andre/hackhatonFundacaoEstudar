@@ -15,16 +15,13 @@ export const Header = () => {
                         <a href="/#insetosNoMeio">O que é entomofagia?</a>
                     </li>
                     <li>
-                        <Link to="/tabelas">Tabelas</Link>
+                        <Link to="/Tabelas">Tabelas</Link>
                     </li>
                     <li>
-                        <Link to="/sustentabilidade">Sustentabilidade</Link>
+                        <Link>Sustentabilidade</Link>
                     </li>
                     <li>
-                        <Link to="/receitas">Receitas</Link>
-                    </li>
-                    <li>
-                        <Link to="/utilidades">Utilidades</Link>
+                        <Link>Receitas</Link>
                     </li>
                 </ul>
             </div>
