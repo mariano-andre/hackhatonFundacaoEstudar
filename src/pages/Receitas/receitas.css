@@ -1,0 +1,77 @@
+
+.container{
+    min-height: 100vh;
+}
+
+li{
+    font-weight: 30;
+}
+
+.busca-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#inBusca {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.btn-busca {
+    background-color: #9ba657;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    margin: 0 2px;
+    align-items: center;
+}
+
+.btn-busca i {
+    margin-right: 5px; /* Espaço entre o ícone e o texto, se houver */
+}
+
+.btn-busca:hover {
+    background-color: #838d40;
+}
+
+#outReceitas{
+    width: fit-content;
+    margin: 0 auto;
+}
+#outReceitas h2{
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #111;
+}
+#outReceitas b{
+    color: #222;
+}
+#outReceitas p{
+    margin: 5px 0;
+    color: #333;
+}
+
+#receita{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.322);
+}
+#receita p{
+    display: inline;
+}
