@@ -1,18 +1,22 @@
 import React, { useEffect } from 'react';
 import { Header } from '../../landingPage/Header/Header';
 import Container from '../../landingPage/Container/Container';
-import '../Tabelas/tabelas.css'
 import { Footer } from '../../landingPage/Footer/Footer';
 
 const Tabelas = () => {
     useEffect(() => {
         const tbInsetos = document.getElementById('tbInsetos')
-        fetch('http://localhost:5000/cconnect/insetos/', {
+        fetch('http://localhost:5000/api/insetos/', {
             headers: {
                 'Cache-Control': 'no-cache'
             }
         })
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Erro ao buscar os dados');
+            }
+            return response.json(); 
+        })
         .then(data => {
             tbInsetos.innerHTML = '';
 

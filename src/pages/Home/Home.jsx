@@ -36,7 +36,7 @@ Dados obtidos através do Instituto Brasileiro de Geografia e Estatística (IBGE
         <Banner
           title="INSETOS NO MEIO ALIMENTÍCIO"
           img={secondaryBanner}
-          id="insetosNoMeio"
+          id="insetosNoMeioAlimenticio"
         />
         <Section1
           title="O QUE É A ENTOMOFAGIA?"

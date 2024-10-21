@@ -12,16 +12,13 @@ export const Header = () => {
             <div className={styles.headerRight}>
                 <ul>
                     <li>
-                        <a href="/#insetosNoMeio">O que é entomofagia?</a>
+                        <a href="/#insetosNoMeioAlimenticio">O que é entomofagia?</a>
                     </li>
                     <li>
                         <Link to="/Tabelas">Valores nutricionais</Link>
                     </li>
                     <li>
-                        <Link>Sustentabilidade</Link>
-                    </li>
-                    <li>
-                        <Link>Receitas</Link>
+                        <Link to="/Receitas">Receitas</Link>
                     </li>
                 </ul>
             </div>

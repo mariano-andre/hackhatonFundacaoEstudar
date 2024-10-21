@@ -1,0 +1,281 @@
+[
+    {
+        "id": 1,
+        "nome": "Tacos de Grilo",
+        "inseto": "Grilo doméstico",
+        "ingredientes": [
+            "100g de grilos tostados",
+            "4 tortillas de milho",
+            "1 abacate",
+            "1 cebola roxa pequena",
+            "Coentro fresco",
+            "1 limão",
+            "Sal a gosto",
+            "Pimenta a gosto"
+        ],
+        "instrucoes": [
+            "Aqueça as tortillas de milho em uma frigideira.",
+            "Amasse o abacate e tempere com sal, pimenta e limão.",
+            "Pique a cebola roxa e o coentro.",
+            "Espalhe o abacate sobre as tortillas.",
+            "Adicione os grilos tostados por cima do abacate.",
+            "Finalize com a cebola roxa, o coentro e um pouco mais de suco de limão."
+        ]
+    },
+    {
+        "id": 2,
+        "nome": "Salada de Tenébrios Crocantes",
+        "inseto": "Tenebrio molitor",
+        "ingredientes": [
+            "50g de tenébrios (larvas de farinha) tostados",
+            "Folhas de alface",
+            "1 pepino",
+            "Tomates cereja",
+            "Molho vinagrete",
+            "Queijo feta esfarelado"
+        ],
+        "instrucoes": [
+            "Lave as folhas de alface e arrume-as em uma tigela.",
+            "Corte o pepino em fatias finas e os tomates cereja ao meio.",
+            "Espalhe os pepinos e os tomates sobre as folhas de alface.",
+            "Toste os tenébrios em uma frigideira até ficarem crocantes.",
+            "Adicione os tenébrios por cima da salada.",
+            "Regue com molho vinagrete e finalize com queijo feta esfarelado."
+        ]
+    },
+    {
+        "id": 3,
+        "nome": "Bolo de Farinha de Grilo",
+        "inseto": "Grilo doméstico",
+        "ingredientes": [
+            "200g de farinha de trigo",
+            "50g de farinha de grilo",
+            "3 ovos",
+            "100g de açúcar",
+            "100g de manteiga",
+            "1 colher de chá de fermento em pó",
+            "1 xícara de leite",
+            "1 colher de chá de essência de baunilha"
+        ],
+        "instrucoes": [
+            "Preaqueça o forno a 180°C.",
+            "Em uma tigela, misture a farinha de trigo, a farinha de grilo e o fermento.",
+            "Em outra tigela, bata os ovos com o açúcar até ficar cremoso.",
+            "Adicione a manteiga derretida e a baunilha, e misture bem.",
+            "Incorpore os ingredientes secos aos poucos, alternando com o leite.",
+            "Despeje a massa em uma forma untada e asse por 35-40 minutos."
+        ]
+    },
+    {
+        "id": 4,
+        "nome": "Risoto de Gafanhoto",
+        "inseto": "Gafanhoto-nsenene",
+        "ingredientes": [
+            "200g de gafanhotos secos",
+            "1 xícara de arroz arbóreo",
+            "1 cebola picada",
+            "2 dentes de alho picados",
+            "1/2 xícara de vinho branco",
+            "1 litro de caldo de legumes",
+            "50g de queijo parmesão ralado",
+            "2 colheres de sopa de azeite",
+            "Sal e pimenta a gosto"
+        ],
+        "instrucoes": [
+            "Em uma panela, aqueça o azeite e refogue a cebola e o alho.",
+            "Adicione o arroz e mexa até ficar translúcido.",
+            "Acrescente o vinho branco e mexa até evaporar.",
+            "Adicione o caldo de legumes aos poucos, mexendo constantemente.",
+            "Quando o arroz estiver quase cozido, adicione os gafanhotos e continue mexendo.",
+            "Finalize com o queijo parmesão ralado, sal e pimenta."
+        ]
+    },
+    {
+        "id": 5,
+        "nome": "Sopa de Formiga",
+        "inseto": "Formiga de corte",
+        "ingredientes": [
+            "100g de formigas pretas (attas)",
+            "2 batatas",
+            "1 cenoura",
+            "1 cebola",
+            "1 litro de caldo de legumes",
+            "2 colheres de sopa de azeite",
+            "Sal e pimenta a gosto"
+        ],
+        "instrucoes": [
+            "Descasque e corte as batatas e a cenoura em cubos.",
+            "Pique a cebola.",
+            "Em uma panela, aqueça o azeite e refogue a cebola até dourar.",
+            "Adicione as batatas, cenoura e o caldo de legumes.",
+            "Cozinhe até que os legumes estejam macios.",
+            "Adicione as formigas e deixe cozinhar por mais 5 minutos.",
+            "Tempere com sal e pimenta antes de servir."
+        ]
+    },
+    {
+        "id": 6,
+        "nome": "Biscoitos de Farinha de Tenébrios",
+        "inseto": "Tenebrio molitor",
+        "ingredientes": [
+            "150g de farinha de trigo",
+            "50g de farinha de tenébrios",
+            "100g de manteiga",
+            "80g de açúcar",
+            "1 ovo",
+            "1 colher de chá de fermento",
+            "1 colher de chá de essência de baunilha"
+        ],
+        "instrucoes": [
+            "Preaqueça o forno a 180°C.",
+            "Misture a manteiga e o açúcar até obter um creme.",
+            "Adicione o ovo e a baunilha.",
+            "Aos poucos, incorpore a farinha de trigo, a farinha de tenébrios e o fermento.",
+            "Modele os biscoitos e coloque-os em uma assadeira forrada com papel manteiga.",
+            "Asse por 12-15 minutos ou até dourar."
+        ]
+    },
+    {
+        "id": 7,
+        "nome": "Pizza com Farinha de Grilo",
+        "inseto": "Grilo doméstico",
+        "ingredientes": [
+            "300g de farinha de trigo",
+            "50g de farinha de grilo",
+            "1 colher de sopa de fermento biológico",
+            "200ml de água morna",
+            "2 colheres de sopa de azeite",
+            "Molho de tomate",
+            "Queijo e coberturas a gosto"
+        ],
+        "instrucoes": [
+            "Em uma tigela, misture a farinha de trigo, a farinha de grilo e o fermento.",
+            "Adicione a água morna e o azeite, e misture até formar uma massa.",
+            "Sove a massa por 10 minutos e deixe descansar por 1 hora.",
+            "Abra a massa em um formato de pizza, adicione o molho de tomate, queijo e coberturas.",
+            "Asse em forno preaquecido a 200°C por 15-20 minutos."
+        ]
+    },
+    {
+        "id": 8,
+        "nome": "Sopa de Larva de Coco",
+        "inseto": "Bicho-do-coco",
+        "ingredientes": [
+            "100g de larvas de coco (Pachymerus nucleorum)",
+            "1 cebola picada",
+            "2 dentes de alho",
+            "2 batatas",
+            "1 cenoura",
+            "1 litro de caldo de legumes",
+            "2 colheres de sopa de azeite",
+            "Sal e pimenta a gosto"
+        ],
+        "instrucoes": [
+            "Refogue a cebola e o alho no azeite até dourar.",
+            "Adicione as batatas e a cenoura cortadas em cubos.",
+            "Coloque o caldo de legumes e cozinhe até os legumes amaciarem.",
+            "Adicione as larvas de coco e cozinhe por mais 5 minutos.",
+            "Tempere com sal e pimenta."
+        ]
+    },
+    {
+        "id": 9,
+        "nome": "Panqueca de Farinha de Gafanhoto",
+        "inseto": "Gafanhoto-nsenene",
+        "ingredientes": [
+            "100g de farinha de gafanhoto",
+            "200g de farinha de trigo",
+            "2 ovos",
+            "1 xícara de leite",
+            "1 colher de sopa de manteiga derretida",
+            "1 colher de chá de fermento em pó",
+            "Sal a gosto"
+        ],
+        "instrucoes": [
+            "Misture as farinhas, ovos, leite, manteiga e sal até obter uma massa homogênea.",
+            "Aqueça uma frigideira e coloque porções da massa, formando panquecas.",
+            "Cozinhe até dourar dos dois lados.",
+            "Sirva com coberturas de sua preferência."
+        ]
+    },
+    {
+        "id": 10,
+        "nome": "Brownie de Farinha de Grilo",
+        "inseto": "Grilo doméstico",
+        "ingredientes": [
+            "150g de farinha de trigo",
+            "50g de farinha de grilo",
+            "200g de chocolate amargo",
+            "100g de manteiga",
+            "3 ovos",
+            "150g de açúcar",
+            "1 colher de chá de fermento"
+        ],
+        "instrucoes": [
+            "Derreta o chocolate e a manteiga.",
+            "Misture os ovos e o açúcar até formar um creme.",
+            "Adicione o chocolate derretido e misture bem.",
+            "Incorpore as farinhas e o fermento.",
+            "Despeje em uma forma e asse por 25-30 minutos em forno preaquecido a 180°C."
+        ]
+    },
+    {
+        "id": 11,
+        "nome": "Salteado de Tenébrios com Legumes",
+        "inseto": "Tenebrio molitor",
+        "ingredientes": [
+            "100g de tenébrios tostados",
+            "1 pimentão vermelho",
+            "1 abobrinha",
+            "1 cenoura",
+            "2 colheres de sopa de molho de soja",
+            "1 colher de sopa de óleo de gergelim",
+            "Sal e pimenta a gosto"
+        ],
+        "instrucoes": [
+            "Corte os legumes em tiras finas.",
+            "Aqueça o óleo de gergelim em uma frigideira e refogue os legumes até ficarem macios.",
+            "Adicione os tenébrios e o molho de soja, misturando bem.",
+            "Tempere com sal e pimenta."
+        ]
+    },
+    {
+        "id": 12,
+        "nome": "Coxinhas de Barata",
+        "inseto": "Barata lagosta",
+        "ingredientes": [
+            "100g de carne de barata lagosta",
+            "200g de batatas cozidas e amassadas",
+            "1 ovo",
+            "Farinha de rosca",
+            "Óleo para fritar",
+            "Sal e pimenta a gosto"
+        ],
+        "instrucoes": [
+            "Misture a carne de barata com as batatas amassadas.",
+            "Tempere com sal e pimenta.",
+            "Modele as coxinhas, passe no ovo batido e na farinha de rosca.",
+            "Frite em óleo quente até dourar."
+        ]
+    },
+    {
+        "id": 13,
+        "nome": "Quiche de Grilo",
+        "inseto": "Grilo doméstico",
+        "ingredientes": [
+            "100g de farinha de grilo",
+            "200g de farinha de trigo",
+            "150g de manteiga",
+            "2 ovos",
+            "100ml de creme de leite",
+            "100g de queijo ralado",
+            "Sal e pimenta a gosto"
+        ],
+        "instrucoes": [
+            "Misture as farinhas com a manteiga até formar uma massa.",
+            "Abra a massa em uma forma e pré-asse por 10 minutos.",
+            "Misture os ovos, creme de leite e queijo.",
+            "Adicione o recheio na massa e asse por mais 20 minutos."
+        ]
+    }
+]
