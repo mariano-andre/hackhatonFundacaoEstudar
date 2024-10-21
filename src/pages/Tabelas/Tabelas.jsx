@@ -6,7 +6,7 @@ import { Footer } from '../../landingPage/Footer/Footer';
 const Tabelas = () => {
     useEffect(() => {
         const tbInsetos = document.getElementById('tbInsetos')
-        fetch('http://localhost:5000/api/insetos/', {
+        fetch('http://localhost:5000/cconnect/insetos/', {
             headers: {
                 'Cache-Control': 'no-cache'
             }

@@ -33,7 +33,7 @@ const Receitas = () => {
         btMostrar.addEventListener('click', () => buscar(''))
         
         const buscar = nome => {
-            fetch(`http://localhost:5000/api/receitas/buscar?nome=${nome}`)
+            fetch(`http://localhost:5000/cconnect/receitas/buscar?nome=${nome}`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Erro ao buscar os dados');
@@ -52,7 +52,7 @@ const Receitas = () => {
                     <h2>${receita.nome}</h2>
                     <span><b>Inseto utilizado:</b> <p>${receita.inseto}</p></span>
                     <b>Ingredientes:<b/> <ul>${ingredientes}</ul>
-                    <b>Como fazer:</b> <ul>${instrucoes}</ul>
+                    <b>Como fazer:</b> <ol>${instrucoes}</ol>
                     `
                     outReceitas.appendChild(newDiv)
                 })
@@ -63,11 +63,13 @@ const Receitas = () => {
 
     }, [])
     return (
-        <div >
-            <Header/>
-            <Container>
-                <BuscaReceitas/>
-            </Container>
+        <div id="page-container">
+            <div id='content-wrap'>
+                <Header/>
+                <Container>
+                    <BuscaReceitas/>
+                </Container>
+            </div>
             <Footer/>
         </div>
     )

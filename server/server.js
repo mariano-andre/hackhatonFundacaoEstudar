@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Rota para obter dados do JSON
-app.get('/api/insetos', (req, res) => {
+app.get('/cconnect/insetos', (req, res) => {
   fs.readFile(path.join(__dirname, 'data/insetos.json'), 'utf8', (err, data) => {
     if (err) {
       return res.status(500).json({ error: 'Erro ao ler o arquivo.' });
@@ -20,7 +20,7 @@ app.get('/api/insetos', (req, res) => {
   });
 });
 
-app.get('/api/receitas', (req, res) => {
+app.get('/cconnect/receitas', (req, res) => {
   fs.readFile(path.join(__dirname, 'data/receitas.json'), 'utf8', (err, data) => {
     if (err) {
       return res.status(500).json({ error: 'Erro ao ler o arquivo.' });
@@ -31,7 +31,7 @@ app.get('/api/receitas', (req, res) => {
 
 
 // Rota para buscar elementos específicos
-app.get('/api/insetos/buscar', (req, res)  => {
+app.get('/cconnect/insetos/buscar', (req, res)  => {
   const  {nome} = req.query;
   
   fs.readFile(path.join(__dirname, 'data/insetos.json'), 'utf8', (err, data) => {
@@ -59,7 +59,7 @@ app.get('/api/insetos/buscar', (req, res)  => {
     });      
 })
 
-app.get('/api/receitas/buscar', (req, res)  => {
+app.get('/cconnect/receitas/buscar', (req, res)  => {
   const  {nome} = req.query;
   
   fs.readFile(path.join(__dirname, 'data/receitas.json'), 'utf8', (err, data) => {

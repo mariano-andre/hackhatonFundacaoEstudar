@@ -20,6 +20,9 @@ export const Header = () => {
                     <li>
                         <Link to="/Receitas">Receitas</Link>
                     </li>
+                    <li>
+                        <Link to="/API">Crawley API</Link>
+                    </li>
                 </ul>
             </div>
         </header>

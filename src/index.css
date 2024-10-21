@@ -65,3 +65,10 @@ tr:hover {
   width: 80%;
   margin: 20px auto 10px;
 }
+.div-infos{
+  width: 70%;
+  margin: 0 auto;
+}
+.div-infos h1{
+  font-size: 36px;
+}

@@ -27,7 +27,7 @@ Dados obtidos através do Instituto Brasileiro de Geografia e Estatística (IBGE
         />
         <Section2
           title="A PROBLEMATIZAÇÃO DA FOME"
-          textContent=" Mediante a realidade global, nota-se que independentemente do tempo transcorrido, a fome ainda é um problema atual e que consequentemente é causa potencial de óbitos em nossa sociedade contemporânea. Tal problema tem como causa inúmeros fatores, tais como questões políticas, socioeconômicas, estruturais e climáticas.
+          textContent="Mediante a realidade global, nota-se que independentemente do tempo transcorrido, a fome ainda é um problema atual e que consequentemente é causa potencial de óbitos em nossa sociedade contemporânea. Tal problema tem como causa inúmeros fatores, tais como questões políticas, socioeconômicas, estruturais e climáticas.
 
  De acordo com a FAO (Organização das Nações Unidas para Agricultura e Alimentação), aproximadamente uma em cada sete pessoas enfrentam o problema da fome no mundo, e mais de 20 mil crianças com idade inferior a 5 anos morrem por consequência da desnutrição. 
 "

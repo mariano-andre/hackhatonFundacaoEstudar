@@ -1,11 +1,29 @@
 
-.container{
+#page-container{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#content-wrap{
+    flex-grow: 1;
 }
 
 li{
     font-weight: 30;
 }
+ol { 
+    list-style: none; 
+    counter-reset: num; 
+} 
+
+ol li { 
+    counter-increment: num; 
+} 
+
+ol li::before { 
+    content: counter(num) ". "; 
+    font-weight: 600;
+} 
 
 .busca-container {
     display: flex;
